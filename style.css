@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
+spam{
+    color: var(--main-color);
+
+}
 
 :root{
     --bg-color:#1f242d;
@@ -18,7 +22,7 @@
 } 
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    scroll-behavior: smooth;
 
 }  
 body{
@@ -78,6 +82,7 @@ section{
 }
 .home-img img{
     width:30vw ;
+    border-radius: 20%;
 }
 .home-content h1{
     font-size:3.2rem;
@@ -144,6 +149,7 @@ span {
 }
 .about-img img{
     width:35vw;
+    
 }
 .heading{
     text-align: center;
@@ -368,4 +374,11 @@ span {
         padding: 2rem 3%;
 
     }
+}
+#msg{
+    color: var(--main-color);
+    display: block;
+    /* margin-left:70px; */
+    text-align: center;
+
 }
