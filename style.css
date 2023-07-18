@@ -82,7 +82,8 @@ section{
 }
 .home-img img{
     width:30vw ;
-    border-radius: 20%;
+    border-radius: 70%;
+    
 }
 .home-content h1{
     font-size:3.2rem;
@@ -149,6 +150,7 @@ span {
 }
 .about-img img{
     width:35vw;
+    border-radius: 70%;
     
 }
 .heading{
