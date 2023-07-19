@@ -172,7 +172,7 @@ span {
 }
 
 .services h2{
-    margin bottom: 4.2rem;
+    margin-bottom: 4.2rem;
 }
 .services-container{
     display: flex;
@@ -234,8 +234,8 @@ span {
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--second-bg-color);
-    overflow: hidden;
     display: flex;
+    overflow: hidden;
 }
 .portfolio-box img{
     width: 100%;
@@ -384,3 +384,26 @@ span {
     text-align: center;
 
 }
+@media (max-width: 600px) {
+    .portfolio {
+      padding: 50px;
+    }
+    
+    .portfolio h2 {
+      font-size: 30px;
+    }
+    
+    .portfolio-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .portfolio-box {
+      margin-bottom: 2.5rem;
+    }
+    
+    .portfolio-box .portfolio-layer {
+      padding: 0 2rem;
+    }
+  }
+
+
